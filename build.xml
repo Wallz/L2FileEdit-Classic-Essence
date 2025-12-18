@@ -18,7 +18,7 @@
 		along with this program. If not, see [http://www.gnu.org/licenses/].
 	</description>
 
-	<property name="build" location="../build" />
+	<property name="build" location="./build" />
 	<property name="build.bin" location="${build}/bin" />
 	<property name="build.dist" location="${build}/dist" />
 	<property name="build.dist.libs" location="${build.dist}/libs" />
@@ -44,7 +44,7 @@
 	</target>
 
 	<target name="compile" depends="init" description="Compile the source.">
-		<javac srcdir="${src}" destdir="${build.bin}" compiler="modern" debug="true" debuglevel="lines,vars,source" includeantruntime="false" source="24" target="24" encoding="UTF-8" />
+		<javac srcdir="${src}" destdir="${build.bin}" compiler="modern" debug="true" debuglevel="lines,vars,source" includeantruntime="false" release="24" encoding="UTF-8" />
 	</target>
 
 	<target name="jar" depends="compile" description="Create the jar files.">
@@ -57,8 +57,8 @@
 			<manifest>
 				<attribute name="Build-By" value="${user.name}" />
 				<attribute name="Build-Date" value="${time.stamp}" />
-				<attribute name="Implementation-URL" value="http://www.l2jmobius.org/" />
-				<attribute name="Main-Class" value="org.l2jmobius.L2ClientDat" />
+				<attribute name="Implementation-URL" value="http://www.l2jdream.club/" />
+				<attribute name="Main-Class" value="org.l2jdream.L2ClientDat" />
 			</manifest>
 		</jar>
 	</target>

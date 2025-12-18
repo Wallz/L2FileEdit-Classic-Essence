@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<list name="Shield Of Kingdom - Heart Of Volcano">
+<list name="Essence 474p - Heart Of Volcano">
 	<link pattern="24hzSchema.dat" file="24hzschema" version="Awakening" />
 	<link pattern="Ability.dat" file="ability" version="Valiance" />
 	<link pattern="AbilityPoint.dat" file="abilitypoint" version="Valiance" />

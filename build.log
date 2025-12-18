@@ -1,0 +1,23 @@
+
+checkRequirements:
+
+init:
+    [mkdir] Created dir: D:\Workspace\GitHub\L2ClientDat\build\bin
+
+compile:
+    [javac] Compiling 47 source files to D:\Workspace\GitHub\L2ClientDat\build\bin
+
+jar:
+      [jar] Building jar: D:\Workspace\GitHub\L2ClientDat\build\dist\libs\L2ClientDat.jar
+
+adding-core:
+      [zip] Building zip: D:\Workspace\GitHub\L2ClientDat\build\L2ClientDat.zip
+
+adding-dist:
+      [zip] Updating zip: D:\Workspace\GitHub\L2ClientDat\build\L2ClientDat.zip
+
+cleanup:
+   [delete] Deleting directory D:\Workspace\GitHub\L2ClientDat\build\dist
+
+BUILD SUCCESSFUL
+Total time: 2 seconds

@@ -1,4 +1,4 @@
-L2ClientDat Editor - L2jMobius Edition
+L2ClientDat Editor - L2JDream Edition
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

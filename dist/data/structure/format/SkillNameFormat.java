@@ -23,9 +23,9 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.l2jmobius.actions.ActionTask;
-import org.l2jmobius.listeners.FormatListener;
-import org.l2jmobius.util.Util;
+import org.l2jdream.actions.ActionTask;
+import org.l2jdream.listeners.FormatListener;
+import org.l2jdream.util.Util;
 
 public class SkillNameFormat implements FormatListener
 {
