@@ -11,13 +11,13 @@ jar:
       [jar] Building jar: D:\Workspace\GitHub\L2ClientDat\build\dist\libs\L2ClientDat.jar
 
 adding-core:
-      [zip] Building zip: D:\Workspace\GitHub\L2ClientDat\build\L2ClientDat.zip
+      [zip] Building zip: D:\Workspace\GitHub\L2ClientDat\build\L2FileEdit-Classic-Essence.zip
 
 adding-dist:
-      [zip] Updating zip: D:\Workspace\GitHub\L2ClientDat\build\L2ClientDat.zip
+      [zip] Updating zip: D:\Workspace\GitHub\L2ClientDat\build\L2FileEdit-Classic-Essence.zip
 
 cleanup:
    [delete] Deleting directory D:\Workspace\GitHub\L2ClientDat\build\dist
 
 BUILD SUCCESSFUL
-Total time: 2 seconds
+Total time: 1 second

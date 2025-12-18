@@ -2,7 +2,7 @@
 <!DOCTYPE xml>
 <project name="L2ClientDat" default="cleanup" basedir=".">
 	<description>
-		This file is part of the L2ClientDat project.
+		This file is part of the L2FileEdit-Classic-Essence project.
 		
 		This program is free software: you can redistribute it and/or modify
 		it under the terms of the GNU General Public License as published by
@@ -64,11 +64,11 @@
 	</target>
 
 	<target name="adding-core" depends="jar" description="Adding the compiled jars to the Zip file.">
-		<zip destfile="${build}/L2ClientDat.zip" basedir="${build.dist}" level="9" />
+		<zip destfile="${build}/L2FileEdit-Classic-Essence.zip" basedir="${build.dist}" level="9" />
 	</target>
 
 	<target name="adding-dist" depends="adding-core" description="Updating the Zip file with distribution content.">
-		<zip destfile="${build}/L2ClientDat.zip" basedir="${dist}" excludes="**/*-sources.jar" update="true" level="9" />
+		<zip destfile="${build}/L2FileEdit-Classic-Essence.zip" basedir="${dist}" excludes="**/*-sources.jar" update="true" level="9" />
 	</target>
 
 	<target name="cleanup" depends="adding-dist" description="Cleaning the build folder.">
